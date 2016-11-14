@@ -1,0 +1,29 @@
+{
+  "name": "slack-connect4",
+  "version": "1.0.0",
+  "description": "Slackbot connect 4 with express/node and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessebond/slack-connect4.git"
+  },
+  "keywords": [
+    "slack",
+    "connect4",
+    "slackbot",
+    "node",
+    "js"
+  ],
+  "author": "Jesse Bond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessebond/slack-connect4/issues"
+  },
+  "homepage": "https://github.com/jessebond/slack-connect4#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}
