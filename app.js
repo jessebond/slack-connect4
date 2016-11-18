@@ -1,4 +1,4 @@
-//var TestBot = require('./lib/bot')
+var TestBot = require('./lib/bot')
 var Game = require('./lib/game')
 console.log(Game)
 var newGame = new Game('p1', 'p2')
