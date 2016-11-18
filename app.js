@@ -10,10 +10,9 @@ if(!token){
 }
 
 bot = new Connect4Bot(token)
-console.log(Game)
-var newGame = new Game('p1', 'p2')
+
 //console.log(newGame)
-newGame.placePiece(6)
+//newGame.placePiece(6)
 
 //newGame.placePiece(7)
 //newGame.printBoard()
