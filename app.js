@@ -1,8 +1,17 @@
-var TestBot = require('./lib/bot')
+
+
+var Connect4Bot = require('./lib/bot')
 var Game = require('./lib/game')
+
+var token = process.argv[2]
+if(!token){
+    console.log('No token provided, exiting')
+    process.exit()
+}
+
+bot = new Connect4Bot(token)
 console.log(Game)
 var newGame = new Game('p1', 'p2')
-
 //console.log(newGame)
 newGame.placePiece(6)
 
